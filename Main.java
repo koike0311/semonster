@@ -1,15 +1,10 @@
 public class Main {
   public static void main(String[] args) {
     System.out.println("SEMONSTER GAME");
-    System.out.println("Show a new monster!");
-<<<<<<< HEAD
+    System.out.println("Show draw monsters!");
 
-    Player player = new Player();  // ← 追加
-    player.drawMonsters();         // ← 追加
-    player.showDeck();             // ← 追加
-=======
-    Monster monster = new Monster();
-    System.out.println(monster.toString());
->>>>>>> main
+    Player player = new Player();
+    player.drawMonsters();
+    player.showDeck();
   }
 }
